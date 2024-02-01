@@ -1,2 +1,2 @@
 # youngdev_website
-i  made a website with a user freindly  login and registration form and a landing pade with a navbar and the contact page.
+I have successfully created a website featuring a user-friendly login and registration form, along with a captivating landing page complete with a navigation bar and a contact page.
