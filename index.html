@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>M ROMAN ADNAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('youngdev.png');
+            background-color: rgba(255, 255, 255, 0.5);
+            background-size: cover;
+            margin: 0;
+            padding: 0px;
+        }
+    
+        form {
+            max-width: 300px;
+            margin: 50px auto;
+            padding: 10px;
+            background: #fff;
+            opacity: 72%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px #000;
+            animation: fadeInAnimation 1s ease-in-out;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: 0;
+            border-radius: 5px;
+            background:  #c1880d;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #c1880d;
+        }
+
+        @keyframes fadeInAnimation {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        /* Header styles */
+        header {
+            background-color: #313030;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color:#f79b07;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 5px 10px;
+            animation: fadeInAnimation 1s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #313030; /* Change color on hover */
+            border-radius: 10%;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #f79b07;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;        
+            margin: auto;
+            position: absolute;
+            bottom: -320px;
+            width: 100%;
+        }
+        span{
+            color: #f79b07;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M <span>ROMAN</span> ADNAN </h1>
+        <nav>
+            <a href="#" class="nav-link">HOME</a>
+            <a href="#" class="nav-link">ABOUT</a>
+            <a href="#" class="nav-link">SERVICES</a>
+            <a href="#" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+    <form action="/LOGIN" method="post">
+        <h2>LOGIN</h2>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+
+    <form action="/REGISTER" method="post">
+        <h2>REGISTER</h2>
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Register">
+    </form>
+
+    <footer>
+        <p>CONTACT US AT : ROMANADNAN1039@GMAIL.COM | LINKEDIN : M ROMAN ADNAN</p>
+    </footer>
+</body>
+</html>
